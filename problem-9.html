@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Default value of form using input tags</title>
+  </head>
+  <body>
+    <h3>Form with Default values</h3>
+    <form action="" method="GET">
+      <label for="fName">First Name</label>
+      <input type="text" name="fName-el" id="fName" value="Praveen" /><br />
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName-el" id="lName" value="Kumar" /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email-el"
+        id="email"
+        value="praveen@guvi.in"
+      /><br />
+      <label for="phone">Phone Number</label>
+      <input
+        type="number"
+        name="phone-el"
+        id="phone"
+        value="9876543210"
+      /><br />
+      <label for="gender-el">Select Your gender</label>
+      <input type="radio" name="gender-el" id="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender-el" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender-el" id="other" />
+      <label for="other">Other</label><br />
+      <input type="checkbox" name="terms-el" id="terms" checked />
+      <label for="terms">Terms & Conditions</label><br />
+      <input type="checkbox" name="terms-el" id="contactTerm" />
+      <label for="contactTerm">Subscribe for more alerts</label><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
